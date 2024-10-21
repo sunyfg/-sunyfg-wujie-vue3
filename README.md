@@ -1,10 +1,31 @@
 # 无界微前端
 
-## 介绍
+基于 wujie 的微前端解决方案
 
-无界微前端，基于 iframe，无侵入，无依赖，无代码，无配置，无打包，无部署，无限制，无烦恼。
+## 使用
 
-## 特性
+```bash
+pnpm i @sunyfg/wujie-vue3
+```
 
-- 无侵入：无侵入业务代码，无侵入业务框架，无侵入业务打包工具，无侵入业务部署方式。
-- 无依赖：无依赖业务代码，无依赖业务框架，无依赖业务打包工具，无依赖业务部署方式。
+## 文档
+
+- [无界微前端官网](https://wujie-micro.github.io/doc/)
+
+## 项目管理工具 pnpm
+
+- [pnpm](https://www.pnpm.cn/)
+
+## wujie-vue-setup
+
+### 安装依赖
+
+```bash
+pnpm install
+```
+
+### 打包
+
+```bash
+pnpm run build
+```
