@@ -1,9 +1,13 @@
 {
   "name": "@sunyfg/wujie-vue3",
   "version": "1.0.1",
-  "description": "",
+  "description": "wujie vue3 plugin",
   "main": "lib/index.js",
   "module": "esm/src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunyfg/-sunyfg-wujie-vue3.git"
+  },
   "files": [
     "lib",
     "esm",
@@ -14,7 +18,10 @@
     "esm": "swc src/index.ts -d esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "wujie",
+    "vue3"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
