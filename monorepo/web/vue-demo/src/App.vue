@@ -1,5 +1,11 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+
+const send = () => {
+  // console.log(window.parent.a);
+  // console.log(window.$wujie.props);
+  window.$wujie.bus.$emit("vue3", "来自 vue3 子应用");
+};
 </script>
 
 <template>
@@ -10,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <button @click="send">点击</button>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>

@@ -25,6 +25,9 @@ importers:
       vue-router:
         specifier: ^4.4.5
         version: 4.4.5(vue@3.5.12(typescript@5.5.4))
+      wujie:
+        specifier: ^1.0.22
+        version: 1.0.22
       wujie-vue3:
         specifier: ^1.0.22
         version: 1.0.22(vue@3.5.12(typescript@5.5.4))
